@@ -27,7 +27,7 @@ function trocarImg(){
 
 function inserirMsg(){
     var elemento = document.getElementById("mensagem_1")
-    var mensagem_2 = "Olá, como vai?";
+    var mensagem_2 = "Salvee!!";
 
       elemento.innerHTML = mensagem_2;
 }
