@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Exercícios: </h1>
+        <div class="exercicios">
+            <div>
+                <h2>1. Mudar cor da página: </h2>
+                <button id="mudarCor">Mudar cor</button>
+            </div><br>
+
+            <form>
+                <h2>2. Formulário</h2>
+                <label for="mensagem">Digite uma mensagem: </label><br>
+                <input type="text" id="mensagem" name="msg"><br>
+
+                <input type="button" value="enviar" onclick="enviarForms()">
+            </form><br>
+            <ul id="lista"></ul>
+
+            <div>
+                <h2>3. Mudar imagem</h2>
+                <img src="img/flor.png" alt="Imagem de uma flor" id="img">
+                <button onclick= "trocarImg()">Trocar</button>
+            </div><br>
+
+            <div id="mensagem_1">
+                <h2>4. Exibir mensagem</h2>
+                <button onclick="inserirMsg()"> Exibir</button>
+            </div><br>
+
+            <div id="ocultar">
+                <h2>5. Ocultar</h2>
+                <button onclick="ocultar()"> Ocultar</button>
+            </div><br>
+        </div>
+    </header>
+    
+</body>
+</html>
